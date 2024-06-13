@@ -9,14 +9,15 @@ Follow the [official documentation](https://www.unrealengine.com/en-US/download)
 
 1. Launch the Unreal Editor.
 2. Clone this repo `git clone https://github.com/ScalablePixelStreaming/Demo.git`.
-3. Open the VehicleTouch50.uproject file in the editor. The project is already set up with Pixel Streaming plugin enabled.
-4. Package the project for Linux, or Windows if your chosen cloud platform supports Windows containers. Refer to our documentation for more information on this step, especially since packaging for Windows requires additional preparation steps.
-5. Once your project is packaged for target platform, you are ready to deploy it to your SPS formation.
-6. If your cloud platform supports creating versions from a compressed UE project, create a `.zip` archive and upload it directly via the CLI tool or dashboard. Read more about this step here. Your application should now be ready to stream.
-7. If your cloud platform doesn't support creating versions from a compressed UE project, use our Image Builder Tool to create a container image suitable for deploying on SPS. Read more about this step here.
-8. Create a version using the newly created container tag. Read more about this step here. Your application should now be ready to stream.
+3. Open the VehicleTouch50.uproject file in the editor. The project is already set up with the Pixel Streaming plugin enabled.
+4. If your target platform is Linux, the project is ready for packaging out of the box. Follow the steps in the [official UE documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/packaging-unreal-engine-projects?application_version=5.3) to package the project.
+5. If your target is Windows and your chosen cloud platform supports Windows containers, refer to [our documentation](link) for detailed information on preparing your Windows UE project, as there are additional mandatory steps.
+6. Once your project is packaged for your target platform, you are ready to deploy it to your SPS formation.
+7. If your cloud platform supports creating versions from a compressed UE project, create a `.zip` archive and [upload it directly via the CLI tool or dashboard](link).
+8. If your cloud platform doesn't support creating versions from a compressed UE project, use our Image Builder Tool to [create a container image suitable for deploying on SPS](link).
+9. [Create a version](link) using the newly created container tag. Your application should now be ready to stream.
 
-Refer to our documentation for a more detailed look into Scalabel Streaming entities hierarchy and step-by-step deployment guides.
+Refer to our documentation for a more detailed look into Scalable Streaming entities hierarchy and step-by-step deployment guides.
 
 ## Legal
 
