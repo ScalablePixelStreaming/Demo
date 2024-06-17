@@ -1,5 +1,10 @@
 # Demo
-This repository contains the source of the demo UE project that is shipped with Scalable Pixel Streaming.
+
+This repository contains the source code of the UE vehicle template project that is shipped and deployed as a demo on every new SPS installation by defult. 
+
+When your SPS installation is complete, the project will be ready for users to start spinning up application instances by following the demo application URL.
+
+If you have opted not to install the demo during stack creation or deleted the project and want it back, follow the steps below to re-deploy it. Since it is a regular blueprint UE project, the deployment process is the same as it would be for any UE project, which you can follow fully in [our documentation](https://docs.scalablestreaming.io/getting-started).
 
 ## Installing the Unreal Engine
 
